@@ -1,0 +1,55 @@
+site_name: 算法竞赛概论
+site_url: http://127.0.0.1:8000
+theme:
+  name: material
+  palette: 
+    scheme: default
+    primary: white
+    accent: indigo
+  language: zh
+  logo: assets/icon.png
+  favicon: assets/icon.png
+  features:
+    - navigation.instant
+    - navigation.instant.progress
+    - navigation.tracking
+    - navigation.tabs
+    - navigation.path
+    - navigation.indexes
+    - navigation.footer
+    - content.code.copy
+nav:
+  - 简介:
+      - 概览: start/overview.md
+  - 语法基础:
+      - 顺序结构: cpp/first.md
+      - 条件结构: cpp/second.md
+      - 循环结构: cpp/third.md
+      - 语法扫尾: cpp/fourth.md
+  # - 算法与数据结构:
+  # - 杂项:
+extra:
+  homepage: start/overview.md
+markdown_extensions:
+  - attr_list
+  - md_in_html
+  - pymdownx.blocks.caption
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.arithmatex:
+      generic: true
+
+extra_javascript:
+  - javascripts/katex.js
+  - https://unpkg.com/katex@0/dist/katex.min.js
+  - https://unpkg.com/katex@0/dist/contrib/auto-render.min.js
+
+extra_css:
+  - https://unpkg.com/katex@0/dist/katex.min.css
