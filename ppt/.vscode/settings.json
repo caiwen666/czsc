@@ -1,0 +1,8 @@
+{
+    "slidev.include": [
+        "**/slides.md",
+        "pages/imported-slides.md",
+        "first.md",
+        "second.md"
+    ]
+}

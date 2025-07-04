@@ -20,12 +20,19 @@ theme:
     - content.code.copy
 nav:
   - 简介:
-      - 概览: start/overview.md
+      - 概览: index.md
+      - 竞赛介绍: start/what.md
+      - 准备工作: start/preparation.md
+      - 作业提交: start/homework.md
   - 语法基础:
       - 顺序结构: cpp/first.md
-      - 条件结构: cpp/second.md
+      - 分支结构: cpp/second.md
       - 循环结构: cpp/third.md
       - 语法扫尾: cpp/fourth.md
+  - 基础算法:
+      - 取模运算与空间限制: algorithm/first.md
+      - 前缀和与差分算法: algorithm/second.md
+      - 排序算法: algorithm/third.md
   # - 算法与数据结构:
   # - 杂项:
 extra:
@@ -45,6 +52,11 @@ markdown_extensions:
   - pymdownx.snippets
   - pymdownx.arithmatex:
       generic: true
+  - pymdownx.magiclink:  # 自动将纯文本链接和邮箱转换为可点击链接
+      repo_url_shortener: true
+      repo_url_shorthand: true
+      user: github
+      repo: mkdocs
 
 extra_javascript:
   - javascripts/katex.js
