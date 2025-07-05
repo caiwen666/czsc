@@ -1,4 +1,4 @@
-site_name: 算法竞赛概论
+site_name: 算法竞赛导论
 site_url: http://127.0.0.1:8000
 theme:
   name: material
@@ -31,7 +31,7 @@ nav:
       - 语法扫尾: cpp/fourth.md
   - 基础算法:
       - 取模运算与空间限制: algorithm/first.md
-      - 前缀和与差分算法: algorithm/second.md
+      - 前缀和算法: algorithm/second.md
       - 排序算法: algorithm/third.md
       - 题目选讲: algorithm/fourth.md
   # - 算法与数据结构:

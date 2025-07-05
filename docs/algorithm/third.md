@@ -260,13 +260,13 @@ signed main(){
 
 比如：`apple` 和 `appetite`：
 
-（图）
+![](http://pic.caiwen.work/i/2025/07/05/68691b083a462.png)
 
 前三个字符对应的 ascii 码都一样，那么我们就接着比较第四个字符，`e` 对应的 ascii 码比 `l` 小，所以 `appetite` 的字典序更小，我们说 `"appetite"<"apple"`
 
 再比如：`apple` 和 `app`：
 
-（图）
+![](http://pic.caiwen.work/i/2025/07/05/68691b244572f.png)
 
 此时就显出给较短的字符串对应的 ascii 码序列后面补 `0` 的用处来了，由于前三个字符都相同，需要比较第四个字符，但是 `app` 没有第四个字符。但 `app` 对应的 ascii 码序列后面补 0 了，我们还是能继续做比较，0 显然是最小的 ascii 码，因此我们说 `app` 的字典序更小，`"app"<"apple"`。
 
@@ -330,3 +330,4 @@ signed main(){
 * **【作业7.1】奖学金** https://hydro.ac/d/czsc/p/P1029
 * **【作业7.2】车厢重组** https://hydro.ac/d/czsc/p/P1030 （提示：冒泡排序）
 * **【作业7.3】拼数** https://hydro.ac/d/czsc/p/P1031
+* **【作业7.4】字典序** https://hydro.ac/d/czsc/p/P1032
